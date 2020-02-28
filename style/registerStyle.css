@@ -1,6 +1,13 @@
+#nav-search{
+    margin-right: 100px;
+}
 
-#btnSearchItem{
-    border-radius: 10px;
+#cat{
+    margin-left: 20px;
+}
+
+#checkout{
+    margin-left: 30px;
 }
 
 #ui{
