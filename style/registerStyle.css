@@ -1,0 +1,15 @@
+
+#btnSearchItem{
+    border-radius: 10px;
+}
+
+#ui{
+    background-color: #333333;
+    padding: 30px;
+    margin-top: 40%;
+    border-radius: 10px;
+}
+
+#ui label{
+    color: #ffffff;
+}
