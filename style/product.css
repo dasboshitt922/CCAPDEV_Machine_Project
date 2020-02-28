@@ -7,7 +7,12 @@
 }
 
 .container{
-    margin-top: -230px;
+    margin-top: -400px;
+}
+
+#commentArea{
+    background-color: white;
+    border-radius: 10px;
 }
 
 #checkout{
