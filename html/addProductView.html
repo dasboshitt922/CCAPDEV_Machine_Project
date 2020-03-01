@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login Screen</title>
-        <link rel="stylesheet" href="../style/login.css">
+        <title>Add a Product</title>
+        <link rel="stylesheet" href="../style/navbarStyle.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <style>
             body{
@@ -12,7 +12,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a href="../html/homeView.html" class="navbar-brand">ShopHub</a>
+            <a href="../html/registeredHomeView.html" class="navbar-brand">ShopHub</a>
             <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,6 +37,38 @@
             </div>
         </nav>
         
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div id="ui">
+                        <h1 class="text-white">Add a Product</h1>
+                        <form class="form-group text-center" action="../html/registeredHomeView.html">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Product Name: </label>
+                                    <input placeholder="Enter Product Name" class="form-control" type="text" name="fname" id="fname">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Price: </label>
+                                    <input placeholder="Enter Price" class="form-control" type="text" name="lname" id="lname">
+                                </div>
+                            </div>
+                            <br>
+                            <label>Product Description:</label>
+                            <input placeholder="Enter Product Description" class="form-control" type="text" name="username" id="username">
+                            <br>
+                            <label>Add Photo:</label>
+                            <br>
+                            <input class="text-white" type="file" name="" id="">
+                            <br>
+                            <br>
+                            <input class="btn btn-primary btn-block btn-lg" type="submit" name="submit" id="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
